@@ -1,0 +1,162 @@
+a{
+  text-decoration: none;
+}
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+  margin:0;
+  padding:0;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+ol, ul{
+  list-style: none;
+
+}
+.main {
+    margin: 0 auto;
+    width: 1056px;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.wrap_l {
+    width: 750px;
+    margin-right: 20px;
+    float: left;
+}
+
+.wrap_r {
+    width: 230px;
+    float: left;
+}
+.wrap_block{
+  margin-bottom: 20px;
+}
+
+.wrap_title {
+    overflow: hidden;
+    zoom: 1;
+    border-bottom: 2px #1b9af7 solid;
+}
+
+.wrap_title .title_lbl {
+    float: left;
+    color: #fff;
+    height: 28px;
+    line-height: 28px;
+    background: #1b9af7;
+    padding: 0 20px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 14px;
+}
+
+.wrap_title .title_list {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+}
+
+.wrap_title .title_list {
+    overflow: hidden;
+    zoom: 1;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.wrap_title .title_list .title_list_item {
+    float: left;
+    list-style: none;
+    padding: 0 10px;
+}
+
+.wrap_title .title_list .title_list_item a {
+    color: #6c6c6c;
+}
+.wrap_title .title_list .title_list_item a:hover{
+  text-decoration: underline;
+}
+
+.wrap_title .more {
+    font-size: 14px;
+    color: #1b9bf6;
+    float: right;
+    margin-top: 6px;
+    padding-left: 18px;
+    background: url(../img/more_icon.png) left center no-repeat;
+}
+.wrap_content{
+  height: 300px;
+}
+.tab_content{
+  width: 750px;
+  overflow: hidden;
+  zoom:1;
+}
+.tab_content li{
+  width: 148px;
+  float: left;
+}
+.tab_content li div{
+  width: 130px;
+  margin: 0 auto;
+}
+.book .p_img {
+    padding: 30px 10px 15px;
+    height: 150px;
+    position: relative;
+}
+.book .p_img .i_img{
+  text-align: center;
+}
+.book .p_name {
+    line-height: 17px;
+    height: 32px;
+    font-size: 14px;
+}
+.book .p_name a{
+  color: #010101;
+}
+.book .p_auther {
+    color: #919191;
+    line-height: 14px;
+    height: 30px;
+    font-size: 12px;
+    margin: 10px auto;
+}
+.book .p_press{
+    color: #919191;
+    line-height: 14px;
+    font-size: 12px;
+}
+.book_good{
+  height: 640px;
+  border: 2px #1b9af7 solid;
+  margin-top: 20px;
+}
+.book_good li{
+  width: 110px;
+  float: left;
+  margin-top: 20px;
+}
+.book_good li div{
+  width: 80px;
+  margin: 0 auto;
+}
+.book_good li .b_img{
+}
+.book_good li .b_img img{
+  width: 100%;
+}
+.book_good li .b_name{
+  width: 90px;
+  line-height: 20px;
+  font-size: 12px;
+}

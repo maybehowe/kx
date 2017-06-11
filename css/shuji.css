@@ -1,21 +1,70 @@
-a{
-  text-decoration: none;
+a {
+    text-decoration: none;
 }
-a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
-  margin:0;
-  padding:0;
+
+a,
+address,
+b,
+big,
+blockquote,
+body,
+center,
+cite,
+code,
+dd,
+del,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+i,
+iframe,
+img,
+ins,
+label,
+legend,
+li,
+ol,
+p,
+pre,
+small,
+span,
+strong,
+u,
+ul,
+var {
+    margin: 0;
+    padding: 0;
 }
+
 img {
     border: 0;
     vertical-align: middle;
 }
-ol, ul{
-  list-style: none;
 
+ol,
+ul {
+    list-style: none;
 }
+
+.clr {
+    clear: both;
+}
+
 .main {
     margin: 0 auto;
     width: 1056px;
+    margin-bottom: 100px;
 }
 
 .wrap {
@@ -35,8 +84,9 @@ ol, ul{
     width: 230px;
     float: left;
 }
-.wrap_block{
-  margin-bottom: 20px;
+
+.wrap_block {
+    margin-bottom: 30px;
 }
 
 .wrap_title {
@@ -80,8 +130,9 @@ ol, ul{
 .wrap_title .title_list .title_list_item a {
     color: #6c6c6c;
 }
-.wrap_title .title_list .title_list_item a:hover{
-  text-decoration: underline;
+
+.wrap_title .title_list .title_list_item a:hover {
+    text-decoration: underline;
 }
 
 .wrap_title .more {
@@ -92,38 +143,55 @@ ol, ul{
     padding-left: 18px;
     background: url(../img/more_icon.png) left center no-repeat;
 }
-.wrap_content{
-  height: 300px;
+
+.wrap_content {
+    min-height: 300px;
 }
-.tab_content{
-  width: 750px;
-  overflow: hidden;
-  zoom:1;
+
+.tab_content {
+    width: 750px;
+    overflow: hidden;
+    zoom: 1;
 }
-.tab_content li{
-  width: 148px;
-  float: left;
+
+.hot_tab {
+    width: 100%;
 }
-.tab_content li div{
-  width: 130px;
-  margin: 0 auto;
+
+.tab_content li {
+    width: 148px;
+    float: left;
 }
+
+.hot_tab.tab_content li {
+    width: 160px;
+}
+
+.tab_content li div {
+    width: 130px;
+    margin: 0 auto;
+}
+
 .book .p_img {
     padding: 30px 10px 15px;
     height: 150px;
     position: relative;
 }
-.book .p_img .i_img{
-  text-align: center;
+
+.book .p_img .i_img {
+    text-align: center;
 }
+
 .book .p_name {
     line-height: 17px;
     height: 32px;
     font-size: 14px;
 }
-.book .p_name a{
-  color: #010101;
+
+.book .p_name a {
+    color: #010101;
 }
+
 .book .p_auther {
     color: #919191;
     line-height: 14px;
@@ -131,32 +199,351 @@ ol, ul{
     font-size: 12px;
     margin: 10px auto;
 }
-.book .p_press{
+
+.book .p_press {
     color: #919191;
     line-height: 14px;
     font-size: 12px;
 }
-.book_good{
-  height: 640px;
-  border: 2px #1b9af7 solid;
-  margin-top: 20px;
+
+.book_good {
+    height: 640px;
+    border: 2px #1b9af7 solid;
+    margin-top: 20px;
 }
-.book_good li{
-  width: 110px;
+
+.book_good a{
+  color: #232323;
+}
+
+.book_good li {
+    width: 110px;
+    float: left;
+    margin-top: 20px;
+}
+
+.book_good li div {
+    width: 80px;
+    margin: 0 auto;
+}
+
+.book_good li .b_img {}
+
+.book_good li .b_img img {
+    width: 100%;
+}
+
+.book_good li .b_name {
+    width: 90px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.wrap_b {
+    margin-top: 20px;
+}
+
+.wrap_b_title {
+    height: 98px;
+    line-height: 98px;
+    border-radius: 10px;
+    background: #1b9af7;
+    color: #fff;
+    font-size: 30px;
+}
+
+.wrap_b_title .title_lbl {
+    float: left;
+    padding: 0 20px;
+    background: url(../img/title_bg.jpg) repeat-x;
+    border-top-left-radius: 10px;
+}
+
+.title_tab {
+    float: left;
+    overflow: hidden;
+}
+
+.title_tab .title_tab_item {
+    float: left;
+    margin: 0 14px;
+    margin-top: -4px;
+}
+
+.title_tab .title_tab_item a {
+    display: block;
+}
+
+.title_tab .title_tab_item a:hover {
+    opacity: 0.8;
+}
+
+.list_wrap .wrap_l {
+    margin-right: 0;
+}
+
+.list_wrap .wrap_r {
+    margin-right: 20px;
+}
+
+.list_wrap .book_good {
+    margin-top: 0;
+}
+
+.list_menu li {
+    float: none;
+    width: 86%;
+    margin: 0 auto;
+}
+
+.list_menu li .menu_title {
+    width: 100%;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+.list_menu li .menu_title.type_1 {
+    /*background: url(../img/icon_1.png) left center no-repeat;*/
+}
+
+.list_menu li .menu_title img {
+    width: 36px;
+    position: absolute;
+    top: 4px;
+}
+
+.list_menu li .menu_title span {
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px #5ab6f9 dashed;
+    margin-left: 50px;
+    font-size: 18px;
+    color: #1d9bf7;
+}
+
+.list_menu li a {
+    display: block;
+    color: #3377aa;
+    margin-left: 48px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.book_item {
+    border: 1px #e5e5e5 solid;
+    border-radius: 3px;
+    margin: 20px 0;
+    padding: 10px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.book_item .book_img {
+    width: 150px;
+    text-align: center;
+    float: left;
+}
+
+.book_item .book_info {
+    float: left;
+    width: 574px;
+    height: 160px;
+    overflow: hidden;
+}
+
+.book_info .book_name {
+    color: #1b9af7;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.book_info .book_tip {
+    font-size: 14px;
+    color: #1b9af7;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.book_info .book_tip .book_base {
+    float: left;
+    margin-right: 20px;
+}
+
+.book_info .book_tip .book_star {
+    float: left;
+}
+
+.book_star_wrap {
+    float: left;
+    width: 90px;
+    height: 18px;
+    margin-right: 6px;
+    background: url(../img/star_bg.png) repeat-x;
+    position: relative;
+}
+.book_real_star{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  background: url(../img/star.png) repeat-x;
+}
+
+.book_info .book_des {
+    font-size: 13px;
+    text-indent: 24px;
+    color: #a1a1a1;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.wrap_ltt{
+  overflow: hidden;
+  zoom:1;
+}
+.wrap_r_wrap{
+  margin-bottom: 20px;
+}
+.detail_wrap .book_good{
+  height: 480px;
+}
+.detail_wrap .book_des p{
+  text-indent: 24px;
+  color: #999;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+.detail_wrap .book_info_wrap{
   float: left;
+  width: 548px;
+}
+.detail_wrap .book_name{
+  font-size: 34px;
+  opacity: 0.88;
+  line-height: 100px;
+}
+.detail_wrap .book_img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display:table;
+}
+.detail_wrap .book_img_wrap{
+  display:table-cell;
+  vertical-align:middle;
+}
+.detail_wrap .book_info{
+  font-size: 14px;
+    margin-bottom: 10px;
+}
+.detail_wrap .book_info .book_base{
+  opacity: 0.8;
+}
+.detail_wrap .book_ctrl{
+  float: left;
+  width: 50%;
+}
+.detail_wrap .btn{
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  padding:0 20px;
+  color: #fff;
+  background: #1b9af7;
+  font-size: 18px;
+  border-radius: 4px;
+}
+.detail_wrap .has_read{
+  height: 20px;
+  line-height: 20px;
+  font-size: 13px;
+  color: #1b9af7;
+  padding-left:40px;
+  margin:10px 0;
+  background: url(../img/icon_hasread.png) no-repeat left center;
+}
+.ctrl_do{
+  font-size: 13px;
+  color: #26c022;
+  line-height: 26px;
+}
+.ctrl_do a{
+  height: 26px;
+  line-height: 26px;
+  color: #fff;
+  background: #26c022;
+  border-radius: 3px;
+  padding:0 10px;
+  margin-right: 10px;
+}
+.ctrl_do.ctrl_recom{
+  margin-top: 10px;
+}
+.ctrl_do.ctrl_recom a{
+  background: #ffb712;
+  border-radius: 13px;
+}
+.detail_wrap .book_star {
+  float: left;
+  width: 50%;
+}
+.detail_wrap .book_star_num{
+  overflow: hidden;
+  zoom: 1;
+  margin-bottom: 10px;
+}
+.book_star .rate_num{
+  font-size: 30px;
+  float: left;
+  margin-right: 16px;
+}
+.book_star .rate_star{
+  float: left;
+}
+.book_star .rate_star .has_rate{
+  font-size: 13px;
+  color: #1463a2;
+  margin-top: 6px;
+}
+.rate_item {
+  font-size: 13px;
+      color: #9b9b9b;
+}
+.rate_item .starstop{
+  float: left;
+  margin-right: 5px;
+  width: 22px;
+}
+.rate_item .power {
+    height: 14px;
+    float: left;
+    margin: 2px 4px;
+    background: #ffd596 none repeat scroll 0 0;
+}
+.ctrl_rate{
+  overflow: hidden;
+  zoom:1;
   margin-top: 20px;
 }
-.book_good li div{
-  width: 80px;
-  margin: 0 auto;
-}
-.book_good li .b_img{
-}
-.book_good li .b_img img{
-  width: 100%;
-}
-.book_good li .b_name{
-  width: 90px;
+.ctrl_rate span{
+  display: inline-block;
+  float: left;
+  font-size: 13px;
   line-height: 20px;
-  font-size: 12px;
+  opacity: 0.8;
+}
+.rate_list .rate_hover{
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  float: left;
+}
+.rate_list .rate_hover img{
+  display: block;
+  width: 100%;
 }

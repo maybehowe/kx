@@ -5,6 +5,7 @@ var kx = {
   },
   bindEvent: function () {
     var self = this;
+    var $guangbo = $('.guangbo');
     $('.rate_hover').on('mouseover', function () {
       var hasRate = $('.rate_list').hasClass('hasrate');
       if(hasRate){
@@ -31,6 +32,15 @@ var kx = {
         $('#rate_' + i).find('img').attr('src','../img/star_onmouseover.png');
       }
     });
+    $guangbo.on('click', '.menu_title', function () {
+      var $item = $(this).closest('.list_menu_item');
+      var index = $item.index();
+      $('.menu_drop').addClass('hidden');
+      $('.title_icon').removeClass('up').addClass('down')
+      $item.find('.menu_drop').removeClass('hidden');
+      $item.find('.title_icon').removeClass('down').addClass('up');
+
+    })
   }
 };
 kx.init();

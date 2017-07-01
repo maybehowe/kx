@@ -74,6 +74,10 @@ ul {
     zoom: 1;
 }
 
+.palybook.main .wrap{
+    width: 100%;
+}
+
 .wrap_l {
     width: 750px;
     margin-right: 20px;
@@ -607,7 +611,7 @@ ul {
 
 .play_content {
     background: #ebebeb;
-    width: 800px;
+    /*width: 800px;*/
     padding-bottom: 44px;
     margin: 0 auto;
 }
@@ -762,6 +766,10 @@ ul {
 .qikan_item {
     width: 150px;
     float: left;
+}
+
+.qikanlist.qikan .book{
+  margin-bottom: 20px;
 }
 
 .qikanlist.qikan .book .p_name {
@@ -1068,4 +1076,31 @@ ul {
 }
 .guangbo .detail_wrap .book_star{
   margin-top: -100px;
+}
+.page_wrap{
+  padding: 10px 0;
+  text-align: center;
+}
+.page_ctrl{
+  display: inline-block;
+  color: #1b9af7;
+  font-size: 14px;
+  border: 1px #1b9af7 solid;
+  padding:0 10px;
+  border-radius: 2px;
+  height: 20px;
+  line-height: 20px;
+  margin:0 2px;
+}
+.page_ctrl:hover{
+   background: #1b9af7;
+  color: #fff;
+}
+.page_ctrl.page_num{
+  width: 20px;
+  padding:0;
+}
+.page_ctrl.page_num.cur{
+  background: #1b9af7;
+  color: #fff;
 }

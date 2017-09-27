@@ -70,6 +70,17 @@ var Page = (function() {
                         break;
                 }
             });
+
+            $('.main').on('click', '.catalog_close', function () {
+                $('.nav_catalog_warp').addClass('hidden');
+            });
+
+            $('.main').on('click', '#bb-nav-catalog', function () {
+                $('.nav_catalog_warp').removeClass('hidden');
+            });
+
+
+
         };
 
     return { init: init };
